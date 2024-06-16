@@ -34,7 +34,7 @@ def load_and_process_documents(file_path):
 
 
 def main():
-    st.title("Survey Analysis Query Claude")
+    st.title("Survey Analysis Query V2")
 
     document_paths = [os.path.join(os.getcwd(), "data/document.txt"), 
                       os.path.join(os.getcwd(), "data/org_chart.txt")]
