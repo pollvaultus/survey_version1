@@ -36,8 +36,8 @@ def load_and_process_documents(file_path):
 def main():
     st.title("Survey Analysis Query V2")
 
-    document_paths = [os.path.join(os.getcwd(), "data/document.txt"), 
-                      os.path.join(os.getcwd(), "data/org_chart.txt"), os.path.join(os.getcwd(), "data/ceo-selfeval.txt"),  os.path.join(os.getcwd(), "data/consolidated-cleaned.txt") ]
+    document_paths = [os.path.join(os.getcwd(), "data/document.txt")
+                    , os.path.join(os.getcwd(), "data/ceo-selfeval.txt"),  os.path.join(os.getcwd(), "data/consolidated-cleaned.txt") ]
 
     for document_path in document_paths:
         if not os.path.isfile(document_path):
