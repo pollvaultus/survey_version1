@@ -37,7 +37,7 @@ def main():
     st.title("Survey Analysis Query V1")
 
     document_paths = [os.path.join(os.getcwd(), "data/document.txt"), 
-                      os.path.join(os.getcwd(), "data/org_chart.txt")]
+                      os.path.join(os.getcwd(), "data/org_chart.txt"), os.path.join(os.getcwd(), "data/ceo-selfeval.txt"),  os.path.join(os.getcwd(), "data/consolidated-cleaned.txt") ]
 
     for document_path in document_paths:
         if not os.path.isfile(document_path):
