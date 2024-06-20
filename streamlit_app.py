@@ -13,7 +13,7 @@ from langchain_core.prompts import PromptTemplate  # Use langchain_core for Prom
 os.environ["OPENAI_API_KEY"] = os.environ["OPENAI_API_KEY"]
 
 # Load the GPT model
-llm = ChatOpenAI(model="gpt-4o", temperature=0)
+llm = ChatOpenAI(model="gpt-4o", temperature=0.25)
 
 # Function to load and process the document (with caching)
 @st.cache_resource
